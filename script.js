@@ -18,7 +18,6 @@ const reset = () => {
         element.innerText = ""
     })
     turn = "X"
-    document.getElementsByClassName("turn")[0].innerText = "Turn for " + turn
     document.getElementsByTagName('img')[0].style.width=0;
 }
 
